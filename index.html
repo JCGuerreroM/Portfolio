@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Menu Header -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">@JCGuerrero</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Section Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/perfilFoto.png" alt="" />
+            </div>
+            <h1>Juan C. Guerrero</h1>
+            <h2>Aprendiz del SENA, Futuro Analista y Desarrollador de Software</h2>
+            <div class="redes">
+                <a href="https://github.com/JCGuerreroM"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/j.u.a.n_c_g_m/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/juan-carlos-1861bb425/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mí</h2>
+            <p>
+                <span>Hola, soy JC.</span> Soy Aprendiz del SENA y futuro analista en
+                base de datos y desarrollador wed en Software.
+            </p>
+        </div>
+        <div class="fila">
+            <!--Datos Personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li><strong>Cumpleaños</strong> 31-07-2008</li>
+                    <li><strong>Teléfono</strong> +57 312 511 8432</li>
+                    <li><strong>Email</strong> z1.raul.salinas.1.z@gmail.com</li>
+                    <li><strong>Website</strong> www.jcguerrero.dev</li>
+                    <li><strong>Dirección</strong> Garzón, Huila, Colombia</li>
+                    <li><strong>Cargo</strong> <span>Aprendiz</span></li>
+                </ul>
+            </div>
+            <!--Intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="container-intereses">
+                    <div class="interes">
+                        <a href="https://steamcommunity.com/profiles/76561199172467401/" target="_blank" rel="noopener" class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Juegos</span> </a>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i><span> Música</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-film"></i><span> Película</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i><span> Libros</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i><span> Fotografía</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-laptop"></i><span> Tecnología</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-bicycle"></i><span> Deportes</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i><span> Viajar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+            descargar cv <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+    <!--Section Skills-->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript"><span>2%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss"><span>60%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop"><span>40%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress"><span>0%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react"><span>0%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion"><span>30%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trequipo"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creactividad"><span>40%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion"><span>30%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso prymanagement"><span>36%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>ELABORACION DE LA PROPUESTA DE NEGOCIO</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Profesional orientado a resultados con formación especializada en Elaboración de Propuestas de Negocio. Experto en estructurar proyectos viables, analizar el mercado y desarrollar propuestas comerciales persuasivas. Destaco por mi capacidad para transformar ideas innovadoras en planes estratégicos sólidos, maximizando las oportunidades de éxito y rentabilidad.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>COMPORTAMIENTO EMPRENDEDOR</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Profesional orientado a resultados con sólida formación en comportamiento emprendedor. Destaco por mi capacidad para identificar oportunidades, asumir riesgos calculados y ejecutar soluciones innovadoras. Enfocado en el cumplimiento de objetivos mediante el liderazgo, la adaptabilidad y el trabajo en equipo en entornos de alta incertidumbre.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>ANALISIS Y DEASRROLLO DE SOFTWARE</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2025 - 2027</span>
+                        <p>Desarrollador de Software capacitado en el análisis de requisitos y la creación de aplicaciones informáticas. Enfocado en metodologías ágiles para el diseño, desarrollo y pruebas de software. Proactivo y analítico, con destreza técnica para implementar soluciones tecnológicas escalables que optimizan procesos y responden a las necesidades del usuario final.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>frontend developer Junior</h4>
+                        <span class="casa">compañia</span>
+                        <span class="fecha">0000 - 0000</span>
+                        <p>Falta de experiencia</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>frontend developer Junior</h4>
+                        <span class="casa">compañia</span>
+                        <span class="fecha">0000 - 0000</span>
+                        <p>Falta de experiencia</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>frontend developer Junior</h4>
+                        <span class="casa">compañia</span>
+                        <span class="fecha">0000 - 0000</span>
+                        <p>Falta de experiencia</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+             
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-4.png" alt="">
+                    <a href="ejercicio-DOM/4. Dom-Carro/html.html" target="_blank" rel="noopener noreferre">
+                    <div class="overlay">
+                        <h3>Dom-Carro</h3>
+                        <p>004</p>
+                    </div>
+                    </a>
+                </div>
+                
+             
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-5.png" alt="">
+                    <a href="ejercicio-DOM/5. Cursor Animado/html.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Cursor-Animado</h3>
+                        <p>005</p>
+                    </div>
+                    </a>
+                </div>
+                
+               
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-6.png" alt="">
+                    <a href="ejercicio-DOM/6. Dom Cronometro/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Dom-Cronometro</h3>
+                        <p>006</p>
+                    </div>
+                    </a>
+                </div>
+                
+
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-7.png" alt="">
+                    <a href="ejercicio-DOM/7. Dom Carrus/index.html" class="a_proyecto" target="_blank" rel="noopener noreferrer"> 
+                    <div class="overlay">
+                        <h3>Dom-Carrus</h3>
+                        <p>007</p>
+                    </div>
+                    </a>
+                </div>
+                                
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-8.png" alt="">
+                    <a href="ejercicio-DOM/8. Dom Galeri/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Dom-Galeri</h3>
+                        <p>008</p>
+                    </div>
+                    </a>
+                </div>
+                
+
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-9.png" alt="">
+                    <a href="ejercicio-DOM/9. Dom Mensaje/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Dom-Mensaje</h3>
+                        <p>009</p>
+                    </div>
+                    </a>
+                </div>
+                
+               
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-10.png" alt="">
+                    <a href="ejercicio-DOM/10. Dom Bateria/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Dom-Bateria</h3>
+                        <p>010</p>
+                    </div>
+                    </a>
+                </div>
+                
+               
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-11.png" alt="">
+                    <a href="ejercicio-DOM/11. Dom Calculadora/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Dom-Calculadora</h3>
+                        <p>011</p>
+                    </div>
+                    </a>
+                </div>
+                
+
+                <div class="proyecto">
+                    <img src="img/img-Portafolio/Ejer-12.png" alt="">
+                    <a href="ejercicio-DOM/12. Dom Lista/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="overlay">
+                        <h3>Dom-Lista</h3>
+                        <p>012</p>
+                    </div>
+                    </a>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!--Section Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Direccion de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                    <!--Mapa-->
+                    <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31894.943690073447!2d-75.616029!3d2.203562!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1783737312478!5m2!1ses-419!2sco" width="535" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="mapaU"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i> Garzon, Huila, Colombia</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i> Llamame: +57 312 511 8432</li>
+                            <li><i class="fa-solid fa-envelope"></i> E-mail: z1.raul.salinas.1.z@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <a href="" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/JCGuerreroM"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/j.u.a.n_c_g_m/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/juan-carlos-1861bb425/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

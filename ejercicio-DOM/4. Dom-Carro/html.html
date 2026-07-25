@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Manipulación del DOM</title>
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image"></div>
+
+        <div class="product-description">
+            <h3 class="tag">CAR</h3>
+            <h1 class="product-title">Mercedez Benz c300 2022</h1>
+            
+            <div class="product-details">
+                <span><i class="fa-solid fa-car"></i> Mileage: 4,000 miles</span>
+                <span><i class="fa-solid fa-gas-pump"></i> Fuel: 25mpg</span>
+                <span>
+                    <i class="fa-solid fa-shield"></i> Safety:
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </span>
+            </div>
+
+            <p class="pick-text">Pick a color:</p>
+            
+            <div class="colors-price">
+                <div class="colors">
+                    <span class="red"></span>
+                    <span class="gray"></span>
+                    <span class="black"></span>
+                </div>
+                <div class="pricing">
+                    <span class="new-price">$134,450</span>
+                    <span class="old-price"><s>$140,500</s></span>
+                </div>
+            </div>
+
+            <button id="button">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="button-text">Add to cart</span>
+            </button>
+
+            <button class="feedback">
+                <span id="white-button">Guao, vas a ser el dueño de un Benz</span>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
